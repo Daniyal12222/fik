@@ -1,0 +1,91 @@
+
+// let u_name = document.getElementById('text')
+// let email = document.getElementById('email')
+// let password = document.getElementById('password')
+// let s_up =document.getElementById('sign_up')
+
+
+
+// s_up.addEventListener('click',()=>{
+    
+    
+    
+//     createUserWithEmailAndPassword(auth, email.value, password.value)
+//     .then((userCredential) => {
+//         // Signed up 
+//         const user = userCredential.user;
+//         const userData={
+//             // email: u_email.value,
+//             fullName: u_name.value,
+//             // lastName:lastName,
+            
+            
+            
+//         };
+//         const docRef=doc(db, "users", user.uid);
+//         setDoc(docRef,userData)
+//         .then(()=>{
+//             window.location.href='login.html';
+//         })
+//     })
+//     .catch((error) => {
+//         const errorCode=error.code;
+//         if(errorCode=='auth/email-already-in-use'){
+//             // showMessage('Email Address Already Exists !!!', 'signUpMessage');
+//             Swal.fire({
+//                 title: "Email Address Already Exists !!!",
+//                 text: "signUpMessage",
+//                 icon: "warning"
+//             });
+//         }
+//         else{
+//                 // showMessage('unable to create User', 'signUpMessage');
+//                 Swal.fire({
+//                     title: "unable to create User",
+//                     text: "signUpMessage",
+//                     icon: "warning"
+//                 });
+//             }
+//         });
+//     });
+    
+    
+//     /////////////////////////////////////////////////////////////////////////////////////////////////
+//     // ======================================= login account ===================================== //
+//     /////////////////////////////////////////////////////////////////////////////////////////////////
+//     let l_email = document.getElementById('L_email')
+//     let l_password = document.getElementById('l_password')
+    
+//     let s_in =document.getElementById('sign_in');
+
+//     s_in.addEventListener('click', ()=>{
+
+//         signInWithEmailAndPassword(auth, email,password)
+//     .then((userCredential)=>{
+      
+//         const user=userCredential.user;
+//         localStorage.setItem('loggedInUserId', user.uid);
+//         // window.location.href='homepage.html';
+//     })
+//     .catch((error)=>{
+//         const errorCode=error.code;
+//         if(errorCode==='auth/invalid-credential'){
+//             // showMessage('Incorrect Email or Password', 'signInMessage');
+//             Swal.fire({
+//                 title: "uIncorrect Email or Password",
+//                 text: "signInMessage",
+//                 icon: "warning"
+//             });
+//         }
+//         else{
+//             // showMessage('Account does not Exist', 'signInMessage');
+//             Swal.fire({
+//                 title: "Account does not Exist",
+//                 text: "signInMessage",
+//                 icon: "warning"
+//             });
+//         }
+//     })
+
+
+//     })
